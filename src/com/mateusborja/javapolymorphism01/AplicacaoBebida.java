@@ -16,13 +16,13 @@ public class AplicacaoBebida {
 
         Refrigerante refrigerante = new Refrigerante();
         preparador.prepararBebida(refrigerante);
-        
+
         SucoNatural suconatural = new SucoNatural();
         preparador.prepararBebida(suconatural);
-        
+
         AguaQuente aguaquente = new AguaQuente();
         preparador.prepararBebida(aguaquente);
-        
+
         Cerveja cerveja = new Cerveja();
         preparador.prepararBebida(cerveja);
 
