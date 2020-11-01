@@ -22,6 +22,9 @@ public class AplicacaoBebida {
         
         AguaQuente aguaquente = new AguaQuente();
         preparador.prepararBebida(aguaquente);
+        
+        Cerveja cerveja = new Cerveja();
+        preparador.prepararBebida(cerveja);
 
     }
 
