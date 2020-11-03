@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author mateus.borja
  */
-public class MainAppCedula {
+public class AplicacaoCedula {
     
     public static void main(String[] args) {
         
@@ -17,9 +17,10 @@ public class MainAppCedula {
         
         int N, quociente, resto, nota;
         
+        System.out.println("valor para conversao: ");
         N = sc.nextInt();
-        System.out.println(N);
         
+        System.out.println(N);
         resto = N;
 
         nota = 100;
