@@ -1,4 +1,3 @@
-//java calculadora
 package com.mateusborja.appCalculadora;
 
 import java.util.Locale;
@@ -37,17 +36,17 @@ public class CalculadoraSimples {
         switch (op) {
             case 1:
                 somar = n1 + n2;
-                System.out.println("\nValor da soma: => " + somar);
+                System.out.printf("\nValor da soma: => %.2f%n", somar);
                 break;
 
             case 2:
                 subtrair = n1 - n2;
-                System.out.println("\nValor da subtracao: => " + subtrair);
+                System.out.printf("\nValor da subtracao: => %.2f%n",  subtrair);
                 break;
 
             case 3:
                 multiplicar = n1 * n2;
-                System.out.println("Valor da multiplicacao: => " + multiplicar);
+                System.out.printf("Valor da multiplicacao: => %.2f%n", multiplicar);
                 break;
 
             case 4:
@@ -56,7 +55,7 @@ public class CalculadoraSimples {
                 } else {
 
                     dividir = n1 / n2;
-                    System.out.println("\nValor da divisao: => " + dividir);
+                    System.out.printf("\nValor da divisao: => %.2f%n", dividir);
                     break;
                 }
 
