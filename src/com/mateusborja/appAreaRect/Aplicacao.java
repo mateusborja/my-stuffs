@@ -23,11 +23,7 @@ public class Aplicacao {
         
         double areaq1 = q1.calcularArea();
         System.out.println(areaq1);
-        
-        /*
-        ussing methods set
-        */
-        
+            
         r1.setValores(15, 85);
         r3.setValores(10, 35);
         
