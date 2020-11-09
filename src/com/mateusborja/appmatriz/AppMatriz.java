@@ -27,7 +27,7 @@ public class AppMatriz {
     public int[][] leitura() {
         for (int i = 0; i < (aux); i++) {
             for (int j = 0; j < (aux); j++) {
-                mat[i][j] = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor para " + (i + 1) + "ª linha e da " + (j + 1) + "ª coluna "));
+                mat[i][j] = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor para " + (i + 1) + " linha e da " + (j + 1) + " coluna "));
             }
         }
         System.out.println();
