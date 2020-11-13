@@ -21,18 +21,16 @@ public class FibonacciDataInput {
     
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("length fibonacci: ");
-        int fib1 = sc.nextInt();
-        
-        System.out.println("seq fibonacci: ");
-        for (int i = 0; i < fib1; i++) {
-            System.out.print(" " + fibonacciRecursivo(i));
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("range fibonacci: ");
+            int fib1 = sc.nextInt();
             
+            System.out.println("seq fibonacci: ");
+            for (int i = 0; i < fib1; i++) {
+                System.out.print(" " + fibonacciRecursivo(i));
+                
+            }
         }
-        
-        sc.close();
         
     }
     
