@@ -1,4 +1,4 @@
-package com.mateusborja.javaoop;
+package com.mateusborja.javaoop01;
 
 /**
  *
