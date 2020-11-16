@@ -16,6 +16,7 @@ public class NumeroCrescente {
         int x = sc.nextInt();
         int y = sc.nextInt();
 
+        //cond para numeros iguais
         while (x != y) {
             if (x < y) {
                 System.out.println("Crescente");
