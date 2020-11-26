@@ -56,24 +56,6 @@ public class BuscaBinaria {
 
         sc.close();
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
 
 }
