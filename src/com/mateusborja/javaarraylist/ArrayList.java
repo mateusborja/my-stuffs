@@ -1,6 +1,5 @@
 package com.mateusborja.javaarraylist;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
@@ -46,7 +45,7 @@ public class ArrayList {
 
         listaNumeros.set(1, 21);
 
-        System.out.println("\n" + "Index 1: "+ listaNumeros.get(1) + "\nLista => " + listaNumeros);
+        System.out.println("\n" + "Index 1: " + listaNumeros.get(1) + "\nLista => " + listaNumeros);
 
     }
 
