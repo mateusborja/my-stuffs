@@ -17,7 +17,7 @@ public class ArrayList {
         System.out.println(lista);
 
         lista.set(2, "twoo");
-        str[0] = "@wee";
+        str[0] = "@wee come";
 
         System.out.println(lista.get(0) + " " + str[2]);
 
